@@ -1,0 +1,26 @@
+[
+  {
+    "endpoint": "/report",
+    "status": 200,
+    "result_keys": [
+      "data",
+      "rows",
+      "validation",
+      "candidates",
+      "selected_model",
+      "test_last_60_days_one_step",
+      "seasonal_naive_lag7_one_step",
+      "test_last_60_days_recursive",
+      "limitations"
+    ]
+  },
+  {
+    "endpoint": "/forecast",
+    "status": 200,
+    "result_keys": [
+      "forecast",
+      "planning",
+      "interval_note"
+    ]
+  }
+]

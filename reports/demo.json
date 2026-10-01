@@ -1,0 +1,94 @@
+{
+  "forecast": [
+    {
+      "date": "2025-06-19",
+      "units": 47.1,
+      "rough_lower": 40.32,
+      "rough_upper": 53.88
+    },
+    {
+      "date": "2025-06-20",
+      "units": 42.61,
+      "rough_lower": 35.83,
+      "rough_upper": 49.39
+    },
+    {
+      "date": "2025-06-21",
+      "units": 44.78,
+      "rough_lower": 38.0,
+      "rough_upper": 51.55
+    },
+    {
+      "date": "2025-06-22",
+      "units": 51.27,
+      "rough_lower": 44.49,
+      "rough_upper": 58.04
+    },
+    {
+      "date": "2025-06-23",
+      "units": 58.14,
+      "rough_lower": 51.36,
+      "rough_upper": 64.92
+    },
+    {
+      "date": "2025-06-24",
+      "units": 60.29,
+      "rough_lower": 53.52,
+      "rough_upper": 67.07
+    },
+    {
+      "date": "2025-06-25",
+      "units": 54.73,
+      "rough_lower": 47.95,
+      "rough_upper": 61.5
+    },
+    {
+      "date": "2025-06-26",
+      "units": 47.36,
+      "rough_lower": 40.58,
+      "rough_upper": 54.13
+    },
+    {
+      "date": "2025-06-27",
+      "units": 42.61,
+      "rough_lower": 35.84,
+      "rough_upper": 49.39
+    },
+    {
+      "date": "2025-06-28",
+      "units": 44.46,
+      "rough_lower": 37.68,
+      "rough_upper": 51.24
+    },
+    {
+      "date": "2025-06-29",
+      "units": 51.26,
+      "rough_lower": 44.48,
+      "rough_upper": 58.03
+    },
+    {
+      "date": "2025-06-30",
+      "units": 58.18,
+      "rough_lower": 51.41,
+      "rough_upper": 64.96
+    },
+    {
+      "date": "2025-07-01",
+      "units": 58.33,
+      "rough_lower": 51.55,
+      "rough_upper": 65.11
+    },
+    {
+      "date": "2025-07-02",
+      "units": 53.16,
+      "rough_lower": 46.39,
+      "rough_upper": 59.94
+    }
+  ],
+  "planning": {
+    "expected_lead_time_demand": 358.91,
+    "illustrative_safety_stock": 17.93,
+    "recommended_order_units": 227
+  },
+  "interval_note": "Illustrative residual band; future coverage and independence are not guaranteed. Dates follow the data, not today."
+}

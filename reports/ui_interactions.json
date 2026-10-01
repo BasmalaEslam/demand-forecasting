@@ -1,0 +1,17 @@
+{
+  "method": "jsdom DOM + live HTTP (not visual browser QA)",
+  "cases": [
+    {
+      "endpoint": "/forecast",
+      "status": "Completed",
+      "rendered_characters": 313
+    },
+    {
+      "endpoint": "/report",
+      "status": "Completed",
+      "rendered_characters": 52
+    }
+  ],
+  "xss_text_escape": "passed",
+  "javascript_errors": []
+}

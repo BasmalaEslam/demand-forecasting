@@ -1,0 +1,47 @@
+{
+  "data": "synthetic single-product daily sales unless replaced",
+  "rows": 900,
+  "validation": "Expanding time windows; one-step predictions use actual preceding-day observations.",
+  "candidates": {
+    "ridge": {
+      "fold_mae": [
+        3.278569805189381,
+        3.3593937841771977,
+        3.2167233188045277,
+        3.079853981678975
+      ],
+      "mean_mae": 3.2336352224625204
+    },
+    "gradient_boosting": {
+      "fold_mae": [
+        4.086527137138896,
+        3.9349615930843456,
+        4.495744538374513,
+        3.4472518326274235
+      ],
+      "mean_mae": 3.991121275306295
+    }
+  },
+  "selected_model": "ridge",
+  "test_last_60_days_one_step": {
+    "mae": 2.8923564062790903,
+    "rmse": 3.964108595653797,
+    "wape": 0.053397349038998586
+  },
+  "seasonal_naive_lag7_one_step": {
+    "mae": 4.25,
+    "rmse": 5.611001099031556,
+    "wape": 0.07846153846153846
+  },
+  "test_last_60_days_recursive": {
+    "mae": 3.000395165642618,
+    "rmse": 3.981963049475098,
+    "wape": 0.055391910750325256
+  },
+  "limitations": [
+    "Synthetic demand is not representative of a real shop.",
+    "Intervals are empirical rough bands, not calibrated coverage guarantees.",
+    "One SKU only; no promotion, holidays, stockout censoring or price effects.",
+    "Recursive error can accumulate; evaluate the business forecast horizon."
+  ]
+}
